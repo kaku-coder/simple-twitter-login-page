@@ -1,0 +1,12 @@
+.logo{
+  width: 100%;
+  text-align: center;
+}
+.twitterlogo{
+  background-color: skyblue;
+}
+.text{
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

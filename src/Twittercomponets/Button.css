@@ -1,0 +1,56 @@
+.button {
+  margin-left: 40px;
+}
+
+/* common button style */
+.button button {
+  width: 90%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* NEXT button */
+.next {
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+}
+
+/* FORGOT PASSWORD button */
+.forgot {
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+}
+/* Common button style */
+.button button {
+  width: 90%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid gray;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+/* NEXT */
+.next {
+  background-color: black;
+  color: white;
+}
+
+/* FORGOT */
+.forgot {
+  background-color: white;
+  color: black;
+}
+
+/* ACTIVE (when pressed) */
+.button button:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
